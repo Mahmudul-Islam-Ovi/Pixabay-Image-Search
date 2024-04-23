@@ -4,7 +4,7 @@ const Modal = ({ image, closeModal }) => {
       <div className="bg-white p-4 rounded-md ">
         <button
           onClick={closeModal}
-          className="absolute  btn top-0 right-0 m-4 text-gray-600 font-bold "
+          className="btn mb-2 btn-outline btn-primary  text-gray-600 font-bold "
         >
           Close
         </button>
