@@ -1,6 +1,6 @@
 const ImageCard = ({ images, openModal }) => {
   return (
-    <div className="flex flex-wrap justify-center  gap-4">
+    <div className="flex flex-wrap justify-center p-10 lg:p-0 gap-4">
       {images.map((image) => (
         <div
           key={image.id}
